@@ -1,0 +1,112 @@
+body {
+  background-image: url("../components/images/roulii.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  font-family: "Trebuchet MS", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+header {
+  background-color: rgba(135, 136, 136, 0.5);
+  color: #fff;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+nav ul li:first-child {
+  margin-left: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffd700;
+}
+
+section#hero {
+  background-color: rgba(135, 136, 136, 0.5);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 100px 20px;
+  color: #fff;
+}
+
+section#cars {
+  padding: 50px 20px;
+}
+
+.car-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.car {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.car:hover {
+  transform: translateY(-5px);
+}
+
+.car img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.car h3 {
+  margin: 15px 0;
+  margin-left: auto;
+  font-size: 20px;
+  color: #333;
+}
+
+.car p {
+  margin: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #777;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-bottom: 15px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #555;
+}

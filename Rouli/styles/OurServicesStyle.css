@@ -1,0 +1,62 @@
+body {
+  background-image: url("../components/images/roulii.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  font-family: "Trebuchet MS", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.grid {
+  padding: 20px;
+  font-size: 1.6rem;
+  font-family: "Trebuchet MS";
+  text-shadow: black;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.category {
+  position: relative;
+  width: 366px;
+  height: 800px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.category img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: filter 0.5s;
+}
+
+.category .overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: rgb(256, 256, 256);
+  opacity: 0;
+  transition: opacity 0.5s;
+  font-family: "Trebuchet MS", Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: large;
+}
+
+.category:hover {
+  transform: scale(1.15);
+}
+
+.category:hover img {
+  filter: blur(5px);
+}
+
+.category:hover .overlay {
+  opacity: 1;
+}

@@ -1,0 +1,44 @@
+body {
+  background-image: url("../components/images/roulii.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  font-family: "Trebuchet MS", "Helvetica Neue", Helvetica, sans-serif;
+}
+.sect h1 {
+  text-align: center;
+  text-decoration: solid;
+  font-size: 90px;
+  color: #002657;
+}
+.sect h2 {
+  text-align: center;
+  text-decoration: solid;
+  font-size: 30px;
+  color: rgb(55, 178, 201);
+}
+.navbar img {
+  width: 60px;
+  height: 40px;
+  margin-right: 60rem;
+}
+.video {
+  margin-left: 30rem;
+  border-radius: 1%;
+}
+#hiddenText {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+#animated-text {
+  opacity: 0;
+  transition: opacity 2s ease;
+}
+
+#animated-text1 {
+  opacity: 0;
+  transition: opacity 7s ease;
+  text-align: center;
+  text-decoration: solid;
+  font-size: 18px;
+}

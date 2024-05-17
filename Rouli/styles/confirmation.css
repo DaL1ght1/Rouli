@@ -1,0 +1,96 @@
+body {
+  background-image: url("../components/images/roulii.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  font-family: "Trebuchet MS", "Helvetica Neue", Helvetica, sans-serif;
+}
+input #text2 {
+  color: rgb(102, 112, 228) !important;
+  size: 4rem;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: space-between;
+  gap: 30%;
+  margin: 22%;
+  margin-top: 6%;
+  padding: 80px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px 10px rgb(223, 212, 212);
+  width: 50%;
+  height: 70%;
+  background-color: transparent;
+  align-items: center;
+}
+#name {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  align-self: center;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+  padding-left: 15px;
+  background-color: transparent;
+  border-radius: 20px;
+}
+.info input {
+  width: 90%;
+}
+#confirmButton {
+  border-radius: 20px;
+  border-color: white;
+  color: black !important;
+
+  background-color: transparent;
+  padding: 10px;
+  margin: 10px;
+  width: 50%;
+  margin-left: 25%;
+
+  align-items: center;
+}
+#confirmButton:hover {
+  background-color: white;
+  color: black;
+}
+.error {
+  color: red;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+a:visited {
+  color: #6610f2;
+}
+
+a:focus {
+  outline: none;
+  text-decoration: underline;
+}
+#timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding-left: -80em;
+  border-radius: 20px;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  width: 50%;
+  margin-left: 25%;
+}

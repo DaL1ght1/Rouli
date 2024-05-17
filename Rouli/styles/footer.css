@@ -1,0 +1,56 @@
+footer {
+  background-color: rgba(135, 136, 136, 0.5);
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+  font-family: "Trebuchet MS", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 1.2rem;
+}
+.h3 {
+  color: #002657;
+}
+.logos {
+  width: 25px;
+  height: 25px;
+  align-items: center;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.footer-info,
+.footer-links,
+.footer-contact {
+  flex: 1;
+  margin-right: 20px;
+  padding: 20px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-links li {
+  margin-bottom: 20px;
+}
+
+.footer-links a {
+  opacity: 1;
+  color: #fff;
+  text-decoration: none;
+}
+.footer-links a:hover {
+  color: rgb(55, 178, 201);
+  text-decoration: none;
+}
+
+.footer-social {
+  margin-top: 20px;
+}
+
+.footer-social a {
+  display: inline-block;
+  margin: 0 10px;
+}
