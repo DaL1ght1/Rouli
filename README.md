@@ -137,6 +137,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 For inquiries or feedback, feel free to reach out to us at:
 
 - **Email:** rooli@gmail.com
-- **Phone:** +216 28 042 451
+
 
 
